@@ -143,14 +143,14 @@ with st.sidebar:
 
 # ── Route to page modules ────────────────────────────────────────────────────
 if page == "🏠 Dashboard":
-    from pages.dashboard import render
+    from page_modules.dashboard import render
     render()
 elif page == "📸 Mark Attendance":
-    from pages.mark_attendance import render
+    from page_modules.mark_attendance import render
     render()
 elif page == "👤 Manage Students":
-    from pages.manage_students import render
+    from page_modules.manage_students import render
     render()
 elif page == "📊 View Records":
-    from pages.view_records import render
+    from page_modules.view_records import render
     render()
